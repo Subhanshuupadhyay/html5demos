@@ -9,7 +9,26 @@ using System.Windows.Forms;
 using System.Drawing;
  
 namespace WindowsFormsApplication1
+using System;
+using System.Windows.Forms;
+using System.Drawing;
+ 
+namespace WindowsFormsApplication1
 {
+    ///<summary>
+    /// Class summary.
+    ///</summary>
+    publicpartial classForm1 : Form
+    {
+        ///<summary>
+        /// Constructor summary.
+        ///</summary>
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}{
     ///<summary>
     /// Class summary.
     ///</summary>
